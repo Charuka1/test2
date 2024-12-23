@@ -1,0 +1,82 @@
+
+{
+    "name": "ＱＵＥＥＮ -ＩＺＵＭＩ - V1 WhatsApp Bot",
+    "description": "This is a 3ʳᵈ Party Application software for WhatsApp with Many Feature & many Commands",
+    "repository": "https://github.com/vajirabot1/QUEEN-IZUMI-MD",
+    "logo": "https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg",
+    "keywords": [
+        "nodejs",
+        "Bot",
+        "WhatsApp Bot",
+        "WhatsApp Automation",
+        "Multi Device"
+    ],
+    "env": {
+        "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "dont want to put session id when you upload cred.json file"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Enter your heroku account api key",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Enter you pushed app Name",
+            "required": true,
+            "value": ""
+        },
+        "MAX_SIZE": {
+            "description": "put download size here",
+            "required": true,
+            "value": "100"
+        },
+        "NUMBER_212_BLOCK": {
+            "description": "dont change this",
+            "required": true,
+            "value": "false"
+        },
+        "PREFIX": {
+            "description": "put prefix here",
+            "required": true,
+            "value": "."
+        },
+        "ANTI_BOT": {
+            "description": "put true or false here",
+            "required": true,
+            "value": "false"
+        },
+        "ANTI_LINK": {
+            "description": "put true or false here",
+            "required": true,
+            "value": "false"
+        },
+        "ANTI_BAD": {
+            "description": "put true or false here",
+            "required": true,
+            "value": "false"
+        },
+        "ONLY_GROUP": {
+            "description": "Add the worktype of the Bot ( private , public , only_group )",
+            "required": true,
+            "value": "private"
+        },
+        "AUTO_VOICE": {
+            "description": "Put true or false to voice on off",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_STICKER": {
+            "description": "Put true or false to sticker on off",
+            "required": true,
+            "value": "false"
+        },
+        "WORK_TYPE": {
+            "description": "Put public or private",
+            "required": true,
+            "value": "public"
+        
+        }
+    },
+}
