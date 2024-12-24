@@ -40,7 +40,7 @@ const buttonMessage = {
     buttons: buttons,
     headerType: 4
 }
-return await conn.buttonMessage2(from, buttonMessage)}
+return await conn.buttonMessage(from, buttonMessage)}
 else {
   const buttons = [
     {buttonId: prefix + 'menu' , buttonText: {displayText: 'COMMANDS MENU'}, type: 1},
