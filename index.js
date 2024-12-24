@@ -329,7 +329,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
 
 //============================================================================ 
 
-if (config.WORK_TYPE === 'private' && !isMe && !isGroup) return
+if (config.WORK_TYPE === 'public' && !isMe && !isGroup) return
 if(from === "120363043598019970@g.us" && !isdev) return
 //==================================plugin map================================
 const events = require('./command')
