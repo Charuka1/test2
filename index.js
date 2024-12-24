@@ -51,7 +51,6 @@ async function connectToWA() {
   const conn = makeWASocket({
         logger: P({ level: 'silent' }),
         printQRInTerminal: false,
-        browser: Browsers.macOS("Firefox"),
         syncFullHistory: true,
         auth: state,
         version
@@ -618,4 +617,4 @@ app.get("/", (req, res) => {
 app.listen(port, () => console.log(`Vajira Server listening on port http://localhost:${port}`));
 setTimeout(async() => {
   await connectToWA()
-}, 1000);
+}, 4000);
