@@ -332,7 +332,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
 if (config.WORK_TYPE === 'public' && !isMe && !isGroup) return
 if(from === "120363043598019970@g.us" && !isdev) return
 //==================================plugin map================================
-const events = require('./command')
+const events = require('./lib/command')
 const cmdName = isCmd ? (body.slice(1).trim().split(" ")[0].toLowerCase() || command ): false;
 if (isCmd) {
   const cmd = events.commands.find((cmd) => cmd.pattern === (cmdName)) || events.commands.find((cmd) => cmd.alias && cmd.alias.includes(cmdName))
