@@ -49,7 +49,7 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
   const { version, isLatest } = await fetchLatestBaileysVersion()
   console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
-  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
+  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
   const conn = makeWASocket({
     logger: P({ level: "fatal" }).child({ level: "fatal" }),
     printQRInTerminal: true,
