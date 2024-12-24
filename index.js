@@ -82,10 +82,7 @@ await connectdb()
 await updb()
 console.log('QUEEN-IZUMI-MD connected ✅')
 
-      
-let up = `*✅MIZUMI-MD connected successful ✅*\n\n*PREFIX:* ${prefix} `;
-
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg` }, caption: up })
+  
     }
   })
 
