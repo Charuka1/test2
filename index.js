@@ -6,7 +6,7 @@ const {
   fetchLatestBaileysVersion,
   jidNormalizedUser,
   getContentType
-} = require('@adiwajshing/baileys')
+} = require('@whiskeysockets/baileys')
 const fs = require('fs')
 const P = require('pino')
 var os = require('os')
