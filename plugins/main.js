@@ -5,7 +5,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 
 cmd({
-    pattern: "alive2",
+    pattern: "alive",
     react: "👨‍💻",
     alias: ["online","test","bot"],
     desc: "Check bot online or no.",
@@ -104,7 +104,7 @@ l(e)
 
 
 cmd({
-    pattern: "ping2",
+    pattern: "ping",
     react: "📟",
     alias: ["speed"],
     desc: "Check bot\'s ping",
@@ -126,7 +126,7 @@ l(e)
 
 
 cmd({
-  pattern: "menu2",
+  pattern: "menu",
   react: "👨‍💻",
   alias: ["panel","list","commands"],
   desc: "Get bot\'s command list.",
