@@ -1,6 +1,6 @@
 const config = require('../config')
 const os = require('os')
-const { cmd, commands } = require('../command')
+const { cmd, commands } = require('../lib/command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 
 
@@ -55,7 +55,7 @@ const listMessage = {
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/KmNqZSj/IMG-20241130-WA0043.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -87,7 +87,7 @@ const listMessage = {
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/KmNqZSj/IMG-20241130-WA0043.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -162,7 +162,7 @@ if(config.ALIVE === "default"){
 const listMessage = {
   caption: `👋 ❤කොහොමද ${pushname} I'm alive now
     
-*👾 QUEEN-IZUMI-MD commands menu...*
+*👾 MIZUKI-MD commands menu...*
   
  *🚀Version:* ${require("../package.json").version}
  *⌛Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -175,11 +175,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 ＭＩＺＵＫＩ - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/KmNqZSj/IMG-20241130-WA0043.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -213,11 +213,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 ＭＩＺＵＫＩ - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/KmNqZSj/IMG-20241130-WA0043.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
